@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title>Digital Agency Landing</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header container">
+			<a href="./" class="header__logo logo">
+				<div class="logo__icon">
+					<svg width="35" height="35" viewBox="0 0 35 35" fill="#FD695A" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M31.5668 0.689453H27.2185C25.8768 0.689453 24.7891 1.74845 24.7891 3.05488V7.28861C24.7891 8.59504 25.8768 9.65411 27.2185 9.65411H31.5668C32.9086 9.65411 33.9964 8.59504 33.9964 7.28861V3.05488C33.9964 1.74845 32.9086 0.689453 31.5668 0.689453Z" />
+						<path
+							d="M14.5379 9.90644H18.3563C19.9363 9.99388 21.4394 10.6 22.6202 11.6259L22.7634 11.7809C23.8226 12.9272 24.4459 14.3926 24.5294 15.9324V19.6347C24.5294 20.2797 24.7925 20.8983 25.261 21.3544C25.7294 21.8105 26.3648 22.0667 27.0273 22.0667H31.498C32.1604 22.0667 32.7958 21.8105 33.2642 21.3544C33.7327 20.8983 33.9958 20.2797 33.9958 19.6347V15.2818C33.9958 14.6368 33.7327 14.0182 33.2642 13.5621C32.7958 13.106 32.1604 12.8498 31.498 12.8498H27.6955C26.114 12.7685 24.609 12.1615 23.4316 11.1303L23.2725 10.9908C22.2166 9.84245 21.5938 8.37831 21.5065 6.83929V3.1215C21.5065 2.47652 21.2433 1.8579 20.7749 1.4018C20.3064 0.945705 19.6711 0.689453 19.0086 0.689453H14.5379C13.8754 0.689453 13.2401 0.945705 12.7717 1.4018C12.3032 1.8579 12.04 2.47652 12.04 3.1215V7.47447C12.04 8.11944 12.3032 8.738 12.7717 9.1941C13.2401 9.65019 13.8754 9.90644 14.5379 9.90644Z" />
+						<path
+							d="M32.2142 25.1472H28.4317C26.8572 25.0477 25.3654 24.4117 24.2079 23.3465L23.7824 22.9238C22.7332 21.765 22.1157 20.2837 22.033 18.7273V14.9693C22.0289 14.3186 21.7669 13.6957 21.3037 13.2355C20.8405 12.7753 20.2136 12.515 19.5586 12.511H15.7761C14.2146 12.4456 12.7232 11.8485 11.5524 10.8199L11.1269 10.3971C10.0776 9.23837 9.46013 7.75713 9.37741 6.20065V2.45839C9.37741 1.80638 9.1167 1.18106 8.65272 0.720002C8.18868 0.259011 7.55932 0 6.90306 0H2.47435C1.81816 0 1.18873 0.259011 0.724755 0.720002C0.260708 1.18106 0 1.80638 0 2.45839V6.85832C0 7.51032 0.260708 8.13564 0.724755 8.59663C1.18873 9.05769 1.81816 9.31671 2.47435 9.31671H6.24112C7.83164 9.38897 9.34731 10.009 10.528 11.0704L10.9535 11.4932C11.9994 12.654 12.6164 14.134 12.7029 15.6895V19.4476C12.707 20.0983 12.969 20.7212 13.4322 21.1813C13.8953 21.6415 14.5223 21.9018 15.1772 21.9059H18.9597C20.509 22.0023 21.9803 22.6145 23.1363 23.644L23.5618 24.0668C24.6077 25.2275 25.2247 26.7076 25.3112 28.2632V32.0212C25.3153 32.6719 25.5773 33.2948 26.0405 33.7549C26.5036 34.2151 27.1306 34.4754 27.7855 34.4795H32.23C32.885 34.4754 33.512 34.2151 33.9751 33.7549C34.4382 33.2948 34.7003 32.6719 34.7044 32.0212V27.6055C34.7002 26.9521 34.436 26.3268 33.9695 25.8662C33.503 25.4057 32.8719 25.1471 32.2142 25.1472Z" />
+						<path
+							d="M7.29917 24.8242H2.61635C1.17138 24.8242 0 25.8833 0 27.1897V31.4234C0 32.7299 1.17138 33.7889 2.61635 33.7889H7.29917C8.74414 33.7889 9.91552 32.7299 9.91552 31.4234V27.1897C9.91552 25.8833 8.74414 24.8242 7.29917 24.8242Z" />
+						<path
+							d="M19.458 24.5723H15.6554C14.074 24.491 12.5689 23.8842 11.3915 22.8529L11.2325 22.7135C10.1699 21.557 9.54661 20.0808 9.46644 18.531V14.8132C9.45858 14.1868 9.20276 13.5874 8.75224 13.1401C8.30172 12.6928 7.69127 12.432 7.04811 12.4121H2.49787C1.83537 12.4121 1.20006 12.6684 0.731624 13.1245C0.263185 13.5805 0 14.1991 0 14.8442V19.197C0 19.8421 0.263185 20.4606 0.731624 20.9168C1.20006 21.3729 1.83537 21.6291 2.49787 21.6291H6.31627C7.89631 21.7165 9.39937 22.3226 10.5802 23.3486L10.7234 23.5035C11.7826 24.6498 12.4059 26.1152 12.4893 27.655V31.3573C12.4893 31.678 12.5545 31.9955 12.681 32.2915C12.8076 32.5876 12.993 32.8564 13.2266 33.0825C13.4602 33.3085 13.7375 33.4873 14.0424 33.6086C14.3473 33.7299 14.6738 33.7914 15.0031 33.7893H19.458C20.1204 33.7893 20.7558 33.5331 21.2242 33.077C21.6927 32.6209 21.9558 32.0023 21.9558 31.3573V27.0044C21.9558 26.3594 21.6927 25.7408 21.2242 25.2847C20.7558 24.8286 20.1204 24.5723 19.458 24.5723Z" />
+					</svg>
+				</div>
+				<div class="logo__name">Proxylab</div>
+			</a>
+			<div class="header__menu-items menu-items">
+				<div class="menu-items__menu-icon">
+					<span></span>
+				</div>
+				<nav class="menu-items__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item">
+							Features
+						</li>
+						<li class="menu__item">
+							Pricing & Plans
+						</li>
+						<li class="menu__item">
+							Support
+						</li>
+						<li class="menu__item">
+							About Us
+						</li>
+						<li class="menu__item--btn btn">
+							<a href="#">Contact Us</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__btn btn">
+				<a href="#">Contact Us</a>
+			</div>
+		</header>
+		<main>
+			<!-- HERO section -->
+			<section class="hero container">
+				<div class="hero__main-info">
+					<h1 class="hero__heading">
+						Best
+						<span>
+							Marketing
+						</span>
+						Digital Agency
+					</h1>
+					<article class="hero__subheading">
+						Various versions have evolved over the years,<br> sometimes by accident, sometimes on purpose
+					</article>
+					<div class="hero__buttons">
+						<div class="hero__btn btn">
+							<a href="#">Get Started</a>
+						</div>
+						<div class="hero__btn-video">
+							<a href="#">Watch Video</a>
+						</div>
+					</div>
+				</div>
+				<div class="hero__visual">
+					<img class="hero__pic" src="./img/hero/happy-girls-2.png" alt="Happy girls">
+				</div>
+			</section>
+
+			<!-- CLIENTS -->
+			<section class="clients container">
+				<h1 class="clients__heading">OUR TRUSTED CLIENTS</h1>
+				<ul class="clients__list">
+					<li class="clients__logo">
+						<img src="./img/trusted clients/slack.svg" alt="Slack logo">
+					</li>
+					<li class="clients__logo">
+						<img src="./img/trusted clients/descript.svg" alt="Slack logo">
+					</li>
+					<li class="clients__logo">
+						<img src="./img/trusted clients/etsy.svg" alt="Slack logo">
+					</li>
+					<li class="clients__logo">
+						<img src="./img/trusted clients/spotify.svg" alt="Slack logo">
+					</li>
+					<li class="clients__logo">
+						<img src="./img/trusted clients/logitech.svg" alt="Slack logo">
+					</li>
+				</ul>
+			</section>
+
+			<!-- SERVIES -->
+			<section class="services container">
+				<div class="services__info-block-1 info-block _active">
+					<h2 class="info-block__heading heading">What we do</h2>
+					<h3 class="info-block__subheading subheading">We Are Here To Help You Build Your Business</h3>
+					<article class="info-block__article article">
+						Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit
+						doloremque, totam rem
+						aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.
+					</article>
+					<a href="#" class="info-block__btn btn">Explore all service</a>
+				</div>
+				<div class="services__info-block-2 info-block">
+					<h2 class="info-block__heading heading">What we do</h2>
+					<h3 class="info-block__subheading subheading">Professional Digital Marketing</h3>
+					<article class="info-block__article article">
+						Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit
+						doloremque, totam rem
+						aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.
+					</article>
+					<button type="button" class="info-block__btn btn"><a href="#">Explore all service</a></button>
+				</div>
+				<div class="services__info-block-3 info-block">
+					<h2 class="info-block__heading heading">What we do</h2>
+					<h3 class="info-block__subheading subheading">The Best SEO</h3>
+					<article class="info-block__article article">
+						Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit
+						doloremque, totam rem
+						aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.
+					</article>
+					<button type="button" class="info-block__btn btn"><a href="#">Explore all service</a></button>
+				</div>
+				<div class="services__info-block-4 info-block">
+					<h2 class="info-block__heading heading">What we do</h2>
+					<h3 class="info-block__subheading subheading">Web Development From The Best Professionals</h3>
+					<article class="info-block__article article">
+						Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit
+						doloremque, totam rem
+						aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.
+					</article>
+					<button type="button" class="info-block__btn btn"><a href="#">Explore all service</a></button>
+				</div>
+				<div class="services__tabs">
+					<div class="services__tab-link services__tab-link--1">
+						<div class="services__tab-icon services__tab-icon--a">
+							<img src="./img/services/marketing-icon.svg" alt="Marketing icon">
+						</div>
+						<h4 class="services__tab-title">
+							Digital Marketing
+						</h4>
+						<article class="services__tab-text">
+							That is the simply dummy text the printing and typesetting industry.
+						</article>
+						<a href="#" class="services__tab-more">Read more</a>
+					</div>
+					<div class="services__tab-link services__tab-link--2">
+						<div class="services__tab-icon services__tab-icon--b">
+							<img src="./img/services/seo-icon.svg" alt="SEO icon">
+						</div>
+						<h4 class="services__tab-title">
+							SEO
+						</h4>
+						<article class="services__tab-text">
+							That is the simply dummy text the printing and typesetting industry.
+						</article>
+						<a href="#" class="services__tab-more">Read more</a>
+					</div>
+					<div class="services__tab-link services__tab-link--3 _active">
+						<div class="services__tab-icon services__tab-icon--c">
+							<img src="./img/services/ui-icon.svg" alt="Marketing icon">
+						</div>
+						<h4 class="services__tab-title">
+							UI UX Design
+						</h4>
+						<article class="services__tab-text">
+							That is the simply dummy text the printing and typesetting industry.
+						</article>
+						<a href="#" class="services__tab-more">Read more</a>
+					</div>
+					<div class="services__tab-link services__tab-link--4">
+						<div class="services__tab-icon services__tab-icon--d">
+							<img src="./img/services/webdev-icon.svg" alt="Marketing icon">
+						</div>
+						<h4 class="services__tab-title">
+							Web Development
+						</h4>
+						<article class="services__tab-text">
+							That is the simply dummy text the printing and typesetting industry.
+						</article>
+						<a href="#" class="services__tab-more">Read more</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- ABOUT US -->
+			<section class="about container">
+				<div class="about__info-block info-block">
+					<h2 class="info-block__heading heading">About Us</h2>
+					<h3 class="info-block__subheading subheading">We're More Than Digital Agency in the World</h3>
+					<article class="info-block__article article">
+						Sed ut perspiciatis unde omnis iste natus error sit of the voluptatem accusantium lorem sit
+						doloremque, totam rem
+						aperiam, eaque ipsa quae ab illo invento veritatis quasi architecto beatae vitae dicta.
+					</article>
+					<a href="#" class="info-block__btn btn">Get in touch</a>
+				</div>
+				<div class="about__visual">
+					<div class="about__pic"><img src="./img/about-us/about.png" alt="Happy man"></div>
+				</div>
+			</section>
+
+			<!-- PORTFOLIO -->
+			<section class="portfolio container">
+				<div class="portfolio__info-block info-block">
+					<h2 class="info-block__heading heading">Our Work</h2>
+					<h3 class="info-block__subheading subheading">
+						See Our Recent Case Studies
+					</h3>
+				</div>
+				<div class="portfolio__works">
+					<div class="portfolio__links">
+						<ul>
+							<li class="portfolio__link _active" data-for-tab="1">UI/UX</li>
+							<li class="portfolio__link" data-for-tab="1">Development</li>
+							<li class="portfolio__link" data-for-tab="1">Graphic Design</li>
+							<li class="portfolio__link" data-for-tab="1">Motion</li>
+							<li class="portfolio__link" data-for-tab="1">Branding</li>
+							<li class="portfolio__link" data-for-tab="1">Business Development</li>
+						</ul>
+						<a href="#!" class="portfolio__link--explore">Explore all</a>
+					</div>
+					<div class="portfolio__examples" data-tab="1">
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-1.jpg" alt="">
+						</div>
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-2.jpg" alt="">
+						</div>
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-3.jpg" alt="">
+						</div>
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-4.jpg" alt="">
+						</div>
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-5.jpg" alt="">
+						</div>
+						<div class="portfolio__pic">
+							<img src="./img/portfolio/portfolio-6.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- GET IN TOUCH -->
+			<section class="in-touch container">
+
+				<div class="in-touch__man">
+					<img src="./img/get-in-touch/man.png" alt="Seriuos man">
+				</div>
+				<div class="in-touch__info-block info-block">
+					<h3 class="info-block__subheading subheading">Have A Project In Mind?<br>Let's Get To Work.</h3>
+					<a class="info-block__btn btn" href="#">Get in touch</a>
+				</div>
+
+			</section>
+		</main>
+		<footer class="footer container">
+			<div class="footer__content">
+				<div class="footer__contacts contacts">
+					<a href="./" class="footer__logo logo">
+						<div class="logo__icon">
+							<svg width="35" height="35" viewBox="0 0 35 35" fill="#FD695A" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M31.5668 0.689453H27.2185C25.8768 0.689453 24.7891 1.74845 24.7891 3.05488V7.28861C24.7891 8.59504 25.8768 9.65411 27.2185 9.65411H31.5668C32.9086 9.65411 33.9964 8.59504 33.9964 7.28861V3.05488C33.9964 1.74845 32.9086 0.689453 31.5668 0.689453Z" />
+								<path
+									d="M14.5379 9.90644H18.3563C19.9363 9.99388 21.4394 10.6 22.6202 11.6259L22.7634 11.7809C23.8226 12.9272 24.4459 14.3926 24.5294 15.9324V19.6347C24.5294 20.2797 24.7925 20.8983 25.261 21.3544C25.7294 21.8105 26.3648 22.0667 27.0273 22.0667H31.498C32.1604 22.0667 32.7958 21.8105 33.2642 21.3544C33.7327 20.8983 33.9958 20.2797 33.9958 19.6347V15.2818C33.9958 14.6368 33.7327 14.0182 33.2642 13.5621C32.7958 13.106 32.1604 12.8498 31.498 12.8498H27.6955C26.114 12.7685 24.609 12.1615 23.4316 11.1303L23.2725 10.9908C22.2166 9.84245 21.5938 8.37831 21.5065 6.83929V3.1215C21.5065 2.47652 21.2433 1.8579 20.7749 1.4018C20.3064 0.945705 19.6711 0.689453 19.0086 0.689453H14.5379C13.8754 0.689453 13.2401 0.945705 12.7717 1.4018C12.3032 1.8579 12.04 2.47652 12.04 3.1215V7.47447C12.04 8.11944 12.3032 8.738 12.7717 9.1941C13.2401 9.65019 13.8754 9.90644 14.5379 9.90644Z" />
+								<path
+									d="M32.2142 25.1472H28.4317C26.8572 25.0477 25.3654 24.4117 24.2079 23.3465L23.7824 22.9238C22.7332 21.765 22.1157 20.2837 22.033 18.7273V14.9693C22.0289 14.3186 21.7669 13.6957 21.3037 13.2355C20.8405 12.7753 20.2136 12.515 19.5586 12.511H15.7761C14.2146 12.4456 12.7232 11.8485 11.5524 10.8199L11.1269 10.3971C10.0776 9.23837 9.46013 7.75713 9.37741 6.20065V2.45839C9.37741 1.80638 9.1167 1.18106 8.65272 0.720002C8.18868 0.259011 7.55932 0 6.90306 0H2.47435C1.81816 0 1.18873 0.259011 0.724755 0.720002C0.260708 1.18106 0 1.80638 0 2.45839V6.85832C0 7.51032 0.260708 8.13564 0.724755 8.59663C1.18873 9.05769 1.81816 9.31671 2.47435 9.31671H6.24112C7.83164 9.38897 9.34731 10.009 10.528 11.0704L10.9535 11.4932C11.9994 12.654 12.6164 14.134 12.7029 15.6895V19.4476C12.707 20.0983 12.969 20.7212 13.4322 21.1813C13.8953 21.6415 14.5223 21.9018 15.1772 21.9059H18.9597C20.509 22.0023 21.9803 22.6145 23.1363 23.644L23.5618 24.0668C24.6077 25.2275 25.2247 26.7076 25.3112 28.2632V32.0212C25.3153 32.6719 25.5773 33.2948 26.0405 33.7549C26.5036 34.2151 27.1306 34.4754 27.7855 34.4795H32.23C32.885 34.4754 33.512 34.2151 33.9751 33.7549C34.4382 33.2948 34.7003 32.6719 34.7044 32.0212V27.6055C34.7002 26.9521 34.436 26.3268 33.9695 25.8662C33.503 25.4057 32.8719 25.1471 32.2142 25.1472Z" />
+								<path
+									d="M7.29917 24.8242H2.61635C1.17138 24.8242 0 25.8833 0 27.1897V31.4234C0 32.7299 1.17138 33.7889 2.61635 33.7889H7.29917C8.74414 33.7889 9.91552 32.7299 9.91552 31.4234V27.1897C9.91552 25.8833 8.74414 24.8242 7.29917 24.8242Z" />
+								<path
+									d="M19.458 24.5723H15.6554C14.074 24.491 12.5689 23.8842 11.3915 22.8529L11.2325 22.7135C10.1699 21.557 9.54661 20.0808 9.46644 18.531V14.8132C9.45858 14.1868 9.20276 13.5874 8.75224 13.1401C8.30172 12.6928 7.69127 12.432 7.04811 12.4121H2.49787C1.83537 12.4121 1.20006 12.6684 0.731624 13.1245C0.263185 13.5805 0 14.1991 0 14.8442V19.197C0 19.8421 0.263185 20.4606 0.731624 20.9168C1.20006 21.3729 1.83537 21.6291 2.49787 21.6291H6.31627C7.89631 21.7165 9.39937 22.3226 10.5802 23.3486L10.7234 23.5035C11.7826 24.6498 12.4059 26.1152 12.4893 27.655V31.3573C12.4893 31.678 12.5545 31.9955 12.681 32.2915C12.8076 32.5876 12.993 32.8564 13.2266 33.0825C13.4602 33.3085 13.7375 33.4873 14.0424 33.6086C14.3473 33.7299 14.6738 33.7914 15.0031 33.7893H19.458C20.1204 33.7893 20.7558 33.5331 21.2242 33.077C21.6927 32.6209 21.9558 32.0023 21.9558 31.3573V27.0044C21.9558 26.3594 21.6927 25.7408 21.2242 25.2847C20.7558 24.8286 20.1204 24.5723 19.458 24.5723Z" />
+							</svg>
+						</div>
+						<div class="logo__name">Proxylab</div>
+					</a>
+					<div class="contacts__list">
+						<div class="contacts__list-item">
+							<img src="./img/footer/location.svg" alt="Location" class="contacts__icon">
+							<div class="contacts__adress">Dhaka, Bangladesh</div>
+						</div>
+						<div class="contacts__list-item">
+							<img src="./img/footer/calling.svg" alt="Phone" class="contacts__icon">
+							<div class="contacts__number">0943833399</div>
+						</div>
+						<div class="contacts__list-item">
+							<img src="./img/footer/message.svg" alt="Email" class="contacts__icon">
+							<div class="contacts__mail">support@proxylab.com</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__service list">
+					<div class="list__title">Service</div>
+					<div class="list__li">UI UX Design</div>
+					<div class="list__li">Mobile Design</div>
+					<div class="list__li">Motion Graphic</div>
+					<div class="list__li">Web Development</div>
+					<div class="list__li">Digital Marketing</div>
+					<div class="list__li">Business Development</div>
+				</div>
+				<div class="footer__company list">
+					<div class="list__title">Company</div>
+					<div class="list__li">Service</div>
+					<div class="list__li">Features</div>
+					<div class="list__li">Our Team</div>
+					<div class="list__li">Portfolio</div>
+					<div class="list__li">Blog</div>
+					<div class="list__li">Contact Us</div>
+				</div>
+				<div class="footer__soc-media list">
+					<div class="list__title">Our Social Media</div>
+					<div class="list__li">Dribbble</div>
+					<div class="list__li">Behance</div>
+					<div class="list__li">Medium</div>
+					<div class="list__li">Instagram</div>
+					<div class="list__li">Facebook</div>
+					<div class="list__li">Twitter</div>
+				</div>
+				<div class="footer__news list">
+					<div class="list__title">Join a Newsletter</div>
+					<form class="list__form">
+						<label class="list__input">
+							<div class="list__li">Your Email</div>
+							<input type="text" placeholder="Enter Your Email" />
+						</label>
+						<button type="button" class="list__btn btn">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				<div class="footer__rights">
+					© 2021 proxylab - All rights reserved.
+				</div>
+				<div class="footer__rights-links">
+					<div><a href="#!">Privacy</a></div>
+					<div><a href="#!">Security</a></div>
+					<div><a href="#!">Terms</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="./js/main.js" defer></script>
+</body>
+
+</html>
