@@ -540,6 +540,7 @@ main {
       align-self: flex-start;
       width: 100%;
       justify-content: center;
+      gap: 30px;
       top: 10px;
    }
    &__slider-btn-prev,
@@ -549,11 +550,10 @@ main {
    }
    &__slider-btn-prev {
       background-color: #fff;
-      transform: translateX(-10px);
    }
    &__slider-btn-next {
       background-color: $red;
-      transform: rotate(180deg) translateX(-10px);
+      transform: rotate(180deg);
       svg {
          fill: #ffffff;
       }
@@ -634,23 +634,25 @@ main {
          display: grid;
          grid-template-columns: 516px 1fr;
          gap: 130px;
+         position: relative;
       }
       &__slider-nav {
+         position: absolute;
          display: flex;
          flex-direction: column;
          align-items: center;
          align-self: center;
+         top: 50%;
+         left: 0;
+         transform: translateY(-50%);
       }
       &__slider-btn-prev,
       &__slider-btn-next {
-         position: absolute;
-         left: 40px;
       }
       &__slider-btn-prev {
-         transform: translateY(-140%);
       }
       &__slider-btn-next {
-         transform: rotate(180deg) translateX(0px);
+         transform: rotate(180deg);
       }
       &__content {
          grid-column: 1;

@@ -1284,6 +1284,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 30px;
   top: 10px;
 }
 .testimonial__slider-btn-prev, .testimonial__slider-btn-next {
@@ -1292,13 +1293,11 @@ main {
 }
 .testimonial__slider-btn-prev {
   background-color: #fff;
-  -webkit-transform: translateX(-10px);
-          transform: translateX(-10px);
 }
 .testimonial__slider-btn-next {
   background-color: #fd695a;
-  -webkit-transform: rotate(180deg) translateX(-10px);
-          transform: rotate(180deg) translateX(-10px);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .testimonial__slider-btn-next svg {
   fill: #ffffff;
@@ -1392,8 +1391,10 @@ main {
     display: grid;
     grid-template-columns: 516px 1fr;
     gap: 130px;
+    position: relative;
   }
   .testimonial__slider-nav {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1406,18 +1407,14 @@ main {
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
-  }
-  .testimonial__slider-btn-prev, .testimonial__slider-btn-next {
-    position: absolute;
-    left: 40px;
-  }
-  .testimonial__slider-btn-prev {
-    -webkit-transform: translateY(-140%);
-            transform: translateY(-140%);
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .testimonial__slider-btn-next {
-    -webkit-transform: rotate(180deg) translateX(0px);
-            transform: rotate(180deg) translateX(0px);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
   .testimonial__content {
     grid-column: 1;

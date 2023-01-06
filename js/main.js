@@ -93,31 +93,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ==== TESTIMONIAL SLIDER ====
-
-document.addEventListener('DOMContentLoaded', () => {
-   const slides = document.querySelectorAll('.testimonial__person');
-   const sliderItem = document.querySelector('.testimonial__person');
-   const prev = document.querySelector('.testimonial__slider-btn-prev');
-   const next = document.querySelector('.testimonial__slider-btn-next');
-
-
-   // slides.forEach(slide => {
-   //    prev.addEventListener('click', () => {
-   //       slide.classList.remove('_active');
-   //    })
-   // })
-   // slides.forEach(slide => {
-   //    next.addEventListener('click', () => {
-   //       slide.classList.remove('_active');
-   //    })
-   // })
-
-   console.log(sliderItem);
-
-   for (let slide of slides) {
-
-
-   }
-
-
-})
