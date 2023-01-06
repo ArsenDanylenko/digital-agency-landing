@@ -93,3 +93,23 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ==== TESTIMONIAL SLIDER ====
+function windowLoaded() {
+   if (document.querySelector('.testimonial__content')) {
+      new Swiper('.testimonial__content', {
+         width: 516,
+         direction: 'horizontal',
+         loop: true,
+         slidesPerView: 1,
+         speed: 1000,
+         mousewheel: true,
+         keyboard: true,
+         spaceBetween: 30,
+
+         navigation: {
+            nextEl: '.testimonial__slider-btn-next',
+            prevEl: '.testimonial__slider-btn-prev',
+         },
+      });
+   }
+}
+window.addEventListener('load', windowLoaded);
