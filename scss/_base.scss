@@ -86,8 +86,10 @@ body {
 }
 .subheading {
    font-weight: 700;
-   font-size: 42px;
-   line-height: 50px;
+   // font-size: 42px;
+   font-size: calc(21px + (42 - 21) * ((100vw - 320px) / (1200 - 320)));
+   // line-height: 50px;
+   line-height: calc(28px + (50 - 28) * ((100vw - 320px) / (1200 - 320)));
    color: #3d3d3f;
    text-transform: capitalize;
 }

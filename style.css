@@ -113,8 +113,8 @@ body._lock {
 
 .subheading {
   font-weight: 700;
-  font-size: 42px;
-  line-height: 50px;
+  font-size: calc(21px + (42 - 21) * ((100vw - 320px) / (1200 - 320)));
+  line-height: calc(28px + (50 - 28) * ((100vw - 320px) / (1200 - 320)));
   color: #3d3d3f;
   text-transform: capitalize;
 }
@@ -1259,6 +1259,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  max-width: 516px;
 }
 .testimonial__slider {
   display: -webkit-box;
@@ -1307,8 +1308,8 @@ main {
   fill: #ffffff;
 }
 .testimonial__slider-btn-next:hover, .testimonial__slider-btn-next:active {
-  -webkit-box-shadow: 0px 0px 2px #000;
-          box-shadow: 0px 0px 2px #000;
+  -webkit-box-shadow: 0px 0px 2px #fea49a;
+          box-shadow: 0px 0px 2px #fea49a;
 }
 .testimonial__person {
   display: -webkit-box;
@@ -1325,6 +1326,13 @@ main {
   border-radius: 29px;
   padding: 33px 40px;
   max-width: 516px;
+}
+.testimonial .swiper-slide,
+.testimonial .swiper-slide-active {
+  max-width: 516px;
+}
+.testimonial .swiper-wrapper {
+  width: 90%;
 }
 .testimonial__person-data {
   display: -webkit-box;
@@ -1394,7 +1402,7 @@ main {
   }
   .testimonial__slider {
     display: grid;
-    grid-template-columns: 516px 1fr;
+    grid-template-columns: minmax(290px, 516px) 1fr;
     gap: 130px;
     position: relative;
   }
@@ -1420,7 +1428,7 @@ main {
   .testimonial__content {
     grid-column: 1;
     display: grid;
-    grid-template-columns: minmax(516px, 1fr) 1fr;
+    grid-template-columns: minmax(290px, 1fr) 1fr;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

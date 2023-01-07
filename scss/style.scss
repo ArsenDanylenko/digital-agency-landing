@@ -527,6 +527,8 @@ main {
    &__content {
       display: flex;
       flex-direction: column;
+      // width: 100%;
+      max-width: 516px;
    }
    &__slider {
       display: flex;
@@ -563,7 +565,7 @@ main {
       }
       &:hover,
       &:active {
-         box-shadow: 0px 0px 2px #000;
+         box-shadow: 0px 0px 2px #fea49a;
       }
    }
    &__person {
@@ -573,7 +575,15 @@ main {
       background: #ffffff;
       border-radius: 29px;
       padding: 33px 40px;
+      // width: 100%;
       max-width: 516px;
+   }
+   .swiper-slide,
+   .swiper-slide-active {
+      max-width: 516px;
+   }
+   .swiper-wrapper {
+      width: 90%;
    }
    &__person-data {
       display: flex;
@@ -637,7 +647,7 @@ main {
       }
       &__slider {
          display: grid;
-         grid-template-columns: 516px 1fr;
+         grid-template-columns: minmax(290px, 516px) 1fr;
          gap: 130px;
          position: relative;
       }
@@ -654,7 +664,7 @@ main {
       &__content {
          grid-column: 1;
          display: grid;
-         grid-template-columns: minmax(516px, 1fr) 1fr;
+         grid-template-columns: minmax(290px, 1fr) 1fr;
          align-items: center;
          width: 100%;
          height: 304px;
