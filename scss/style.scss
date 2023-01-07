@@ -575,15 +575,15 @@ main {
       background: #ffffff;
       border-radius: 29px;
       padding: 33px 40px;
-      // width: 100%;
       max-width: 516px;
    }
    .swiper-slide,
+   .swiper-slide-duplicate,
    .swiper-slide-active {
       max-width: 516px;
    }
    .swiper-wrapper {
-      width: 90%;
+      width: 90vw;
    }
    &__person-data {
       display: flex;

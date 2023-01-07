@@ -1328,11 +1328,12 @@ main {
   max-width: 516px;
 }
 .testimonial .swiper-slide,
+.testimonial .swiper-slide-duplicate,
 .testimonial .swiper-slide-active {
   max-width: 516px;
 }
 .testimonial .swiper-wrapper {
-  width: 90%;
+  width: 90vw;
 }
 .testimonial__person-data {
   display: -webkit-box;
