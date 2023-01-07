@@ -97,7 +97,7 @@ function windowLoaded() {
    if (document.querySelector('.testimonial__content')) {
       new Swiper('.testimonial__content', {
          direction: 'horizontal',
-         // loop: true,
+         loop: true,
          slidesPerView: 1,
          speed: 1000,
          mousewheel: true,
